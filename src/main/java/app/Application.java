@@ -44,13 +44,17 @@ public class Application implements Consumer<Event> {
      * панель рисования
      */
     private final PanelRendering panelRendering;
+
     /**
      * панель событий
      */
     private final PanelLog panelLog;
     public static final int C_RAD_IN_PX = 4;
 
-
+    /**
+     * Представление проблемы
+     */
+    public static Task task;
 
     /**
      * Конструктор окна приложения
